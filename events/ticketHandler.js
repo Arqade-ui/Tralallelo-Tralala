@@ -199,7 +199,7 @@ async function handleSelectMenu(interaction, client) {
 
     const ticketEmbed = new EmbedBuilder()
         .setAuthor({
-            name: "Support Ticket",
+            name: "Payouts Ticket",
             iconURL: ticketIcons.modIcon,
             url: "https://discord.gg/xQF9f9yUEM"
         })
