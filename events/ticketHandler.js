@@ -99,7 +99,7 @@ async function monitorConfigChanges(client) {
                             .setCustomId('select_ticket_type')
                             .setPlaceholder('Choose ticket type')
                             .addOptions([
-                                { label: '🆘 Support', value: 'support' },
+                                { label: '💸 Payouts', value: 'support' },
                                 { label: '📂 Suggestion', value: 'suggestion' },
                                 { label: '💜 Feedback', value: 'feedback' },
                                 { label: '⚠️ Report', value: 'report' }
